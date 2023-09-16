@@ -254,3 +254,15 @@ document.getElementById("search-input").style.width = "15rem"
 window.onload = () => {
   filterProduct("todos");
 };
+
+
+// phone
+let phone = document.querySelector('.bi-telephone-fill');
+
+phone.addEventListener('mouseover', function(){
+  this.classList.add('animation');
+});
+
+phone.addEventListener('mouseout', function(){
+  this.classList.remove('animation');
+})

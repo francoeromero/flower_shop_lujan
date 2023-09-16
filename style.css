@@ -40,8 +40,21 @@ body {
 .whatsapp i {
   color: white;
   font-size: 2rem;
+  display: inline-block;
+  /* animation: phone 1s infinite; */
+}
+.animation{
+  animation: phone 1s infinite;
 }
 
+@keyframes phone {
+  0%,10%,20%,30%,40% {
+    transform: rotateZ(0deg); /* Define el estado inicial */
+  }
+  5%,15%,25%,35%{
+    transform: rotateZ(15deg); /* Define el estado de vibración */
+  }
+}
 
 .content-rotulo{
   display: flex;
