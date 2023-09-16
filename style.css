@@ -18,10 +18,31 @@ body {
   height: 100vh;
   z-index: 3;
 }
-body::after{
-  background: rgba(255, 255, 255, 0.5);
-  z-index: 4;
+
+.whatsapp{
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  background: #349d0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  border: 10px solid rgb(211, 211, 211);
 }
+.whatsapp:hover{
+  border-bottom-left-radius: 0;
+  transition: 1s;
+}
+.whatsapp i {
+  color: white;
+  font-size: 2rem;
+}
+
+
 .content-rotulo{
   display: flex;
   flex-direction: row;
