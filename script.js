@@ -160,6 +160,11 @@ for (let i of products.data) {
   card.classList.add("card", i.category, "hide");
   card.style.width = "20rem";
   card.style.height = "23rem";
+
+
+
+
+  
   //image div
   let imgContainer = document.createElement("div");
   imgContainer.classList.add("image-container");
